@@ -1,0 +1,84 @@
+/*
+CSS Example created by Daniel McGraw
+For educative purposes only
+*/
+html {
+  background-image: linear-gradient(to bottom right, #222, #000);
+  background-attachment: fixed;
+}
+
+#navbar {
+  /*height: 70%;*/
+  /* Full-height: remove this if you want "auto" height */
+  width: 240px;
+  /* Set the width of the sidebar */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: #111;
+  /* Black */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 5px;
+  padding-left: 10px;
+  color: #a1a1a1;
+  overflow: visible;
+}
+
+#navbar h4 {
+  margin-bottom: 5pt;
+  margin-top: 5pt;
+  margin-left: 30pt;
+  margin-right: -20pt;
+  padding-right: 5pt;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #222);
+  text-align: right;
+  font-size: 19pt;
+  border-bottom: 2px solid #888;
+}
+
+#navbar ul {
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+/* The navigation menu links */
+#navbar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 17pt;
+  color: #717171;
+  display: block;
+}
+
+#navbar a>b {
+  text-decoration: none;
+  font-size: 17pt;
+  color: #919191;
+  text-align: center;
+  border-bottom: 3px solid gray;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+#navbar a:hover {
+  color: #f1f1f1;
+}
+
+#container {
+  width: 50%;
+  position: relative;
+  left: 300px;
+  padding: 5pt;
+  margin-right: auto;
+  margin-top: 50pt;
+  color: #888;
+  background-color: #222;
+  font-size: 18pt;
+  font-weight: 300;
+  text-align: justify;
+}
